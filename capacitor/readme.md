@@ -20,6 +20,8 @@ $$
 V(t)=V_0(1-e^{-t/\tau})
 $$
 
+对于ImC来说，充电时，$\tau=0$，这意味着$t\to 0$。因此可以看作当电源恢复供电时，电容两端电压被瞬间充满，与供电电压相同。
+
 ### Discharging
 
 Discharging toward zero from initial voltage (initially $V_0$ across capacitor, constant zero voltage across resistor and capacitor together) $V_0$:
@@ -67,7 +69,7 @@ Under Power Trace, the supply voltage is unified to $3.3\text{V}$.
 
 ![discharge_curve](discharge_curve.png)
 
-在1MHz下，当电容大小分别为10uF、20uF和40uF时，电容在40ms、80ms和150ms的时间内从3.3V下降到MCU理论最低运行电压1.8V。Reasonable sampling interval
+# Reasonable sampling interval
 
 假设供电电压为$V_s$，MCU最低运行电压为$V_\text{min}$，电容放电时间为$T$，期望的ADC分辨率在$\Delta U$以内（即在电容放电时，ADC两次测量电压之差不会大于$\Delta U$），ADC采样的间隔为$\Delta T$，那么就有
 $$
