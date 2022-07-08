@@ -1,0 +1,124 @@
+key_tree:
+  - [MSP430FR5994, MSP430FR5969, MSP430FR2433] # board
+  - [1MHz, 2MHz, 4MHz, 8MHz] # frequency
+  - # test situation
+    - static_ADCoff
+    - static_ADCon_200us
+    - static_ADCon_500us
+    - run_testbench_ADCon_200us
+    - run_testbench_ADCon_500us
+  # 'run_testbench_ADCon_200us' and 'run_testbench_ADCon_500us' only
+  - [max, min, average] 
+
+value: # (current in mA)
+  MSP430FR5994:
+    1MHz:
+      static_ADCoff: 0.3682
+      static_ADCon_200us: 0.4658
+      static_ADCon_500us: 0.4120
+      run_testbench_ADCon_200us:
+        max: 0.5975
+        min: 0.4833
+        average: 0.5390
+      run_testbench_ADCon_500us:
+        max: 0x5406
+        min: 0.4270
+        average: 0.4816
+    2MHz:
+      static_ADCoff: 0.4250
+      static_ADCon_200us: 0.5157
+      static_ADCon_500us: 0.4633
+      run_testbench_ADCon_200us:
+        max: 0.8008
+        min: 0.5867
+        average: 0.6968
+      run_testbench_ADCon_500us:
+        max: 0.7475
+        min: 0.5324
+        average: 0.6438
+    4MHz:
+      static_ADCoff: 0.5155
+      static_ADCon_200us: 0.6905
+      static_ADCon_500us: 0.6373
+      run_testbench_ADCon_200us:
+        max: 1.1868
+        min: 0.7532
+        average: 0.9809
+      run_testbench_ADCon_500us:
+        max: 1.1350
+        min: 0.7003
+        average: 0.9277
+  MSP430FR5969:
+    1MHz:
+      static_ADCoff: 0.2844
+      static_ADCon_200us: 0.3667
+      static_ADCon_500us: 0.3145
+      run_testbench_ADCon_200us:
+        max: 0.4754
+        min: 0.3938
+        average: 0.4370
+      run_testbench_ADCon_500us:
+        max: 0.4226
+        min: 0.3414
+        average: 0.3849
+    2MHz:
+      static_ADCoff: 0.3419
+      static_ADCon_200us: 0.4257
+      static_ADCon_500us: 0.3740
+      run_testbench_ADCon_200us:
+        max: 0.6497
+        min: 0.4816
+        average: 0.5667
+      run_testbench_ADCon_500us:
+        max: 0.5988
+        min: 0.4293
+        average: 0.5155
+    4MHz: 
+      static_ADCoff: 0.4162
+      static_ADCon_200us: 0.5330
+      static_ADCon_500us: 0.4818
+      run_testbench_ADCon_200us:
+        max: 0.9673
+        min: 0.6245
+        average: 0.8016
+      run_testbench_ADCon_500us: 
+        max: 0.9086
+        min: 0.5737
+        average: 0.7512
+  MSP430FR2433: 
+    1MHz: 
+      static_ADCoff: 0.4065
+      static_ADCon_200us: 0.4264
+      static_ADCon_500us: 0.4158
+      run_testbench_ADCon_200us: 
+        max: 0.5148
+        min: 0.4551
+        average: 0.4906
+      run_testbench_ADCon_500us: 
+        max: 0.5043
+        min: 0.4445
+        average: 0.4802
+    2MHz:
+      static_ADCoff: 0.5000
+      static_ADCon_200us: 0.5213
+      static_ADCon_500us: 0.5107
+      run_testbench_ADCon_200us: 
+        max: 0.6890
+        min: 0.5736
+        average: 0.6431
+      run_testbench_ADCon_500us:
+        max: 0.6784
+        min: 0.5611
+        average: 0.6328
+    4MHz:
+      static_ADCoff: 0.6145
+      static_ADCon_200us: 0.6415
+      static_ADCon_500us: 0.6319
+      run_testbench_ADCon_200us: 
+        max: 0.9829
+        min: 0.7563
+        average: 0.8952
+      run_testbench_ADCon_500us:
+        max: 0.9731
+        min: 0.7510
+        average: 0.8884
