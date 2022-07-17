@@ -6,4 +6,4 @@
 【NOTE】
 电流消耗测量通过Energy Trace完成。（见：https://software-dl.ti.com/ccs/esd/documents/xdsdebugprobes/emu_energytrace.html）
 .mlx需要Matlab 2021以上版本的支持。（见：https://ww2.mathworks.cn/help/matlab/matlab_prog/live-script-file-format.html?requestedDomain=cn）
-.ipynb需要anaconda和Jupyter的支持。（anaconda见：https://www.anaconda.com/，Jupyter见https://jupyter.org/）
+.ipynb需要anaconda和Jupyter的支持。（anaconda见：https://www.anaconda.com/，Jupyter见：https://jupyter.org/）
