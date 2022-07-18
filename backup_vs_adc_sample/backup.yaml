@@ -1,0 +1,238 @@
+backup_size: [0, 25, 50, 75, 100, 125, 150, 175, 200, 225, 250]
+
+backup_cycles: 
+  MSP430FR5994:
+    DMA_prepare: 88
+    DMA: [10, 64, 114, 164, 214, 264, 314, 364, 414, 464, 514]
+    CPU: [10, 230, 430, 630, 830, 1030, 1230, 1430, 1630, 1830, 2030]
+  MSP430FR5969:
+    DMA_prepare: 88
+    DMA: [10, 64, 114, 164, 214, 264, 314, 364, 414, 464, 514]
+    CPU: [10, 230, 430, 630, 830, 1030, 1230, 1430, 1630, 1830, 2030]
+  MSP430FR2433:
+    CPU: [13, 272, 503, 734, 965, 1198, 1429, 1660, 1891, 2122, 2353]
+
+MSP430FR5994: 
+  1MHZ: 
+    interval_100us: 
+      DMA:
+      CPU:
+    interval_150us: 
+      DMA:
+      CPU:
+    interval_200us: 
+      DMA:
+      CPU:
+    interval_250us:
+      DMA:
+      CPU:
+    interval_300us: 
+      DMA:
+      CPU:
+    interval_400us: 
+      DMA:
+      CPU:
+    interval_500us: 
+      DMA:
+      CPU:
+    interval_600us:
+      DMA:
+      CPU:
+    interval_800us:
+      DMA:
+      CPU:
+    interval_1000us:
+      DMA:
+      CPU:
+  2MHZ:
+    interval_100us:
+      DMA:
+      CPU:
+    interval_150us:
+      DMA:
+      CPU:
+    interval_200us:
+      DMA:
+      CPU:
+    interval_250us:
+      DMA:
+      CPU:
+    interval_300us:
+      DMA:
+      CPU:
+    interval_400us: 
+      DMA:
+      CPU:
+    interval_500us: 
+      DMA:
+      CPU:
+    interval_600us: 
+      DMA:
+      CPU:
+    interval_800us: 
+      DMA:
+      CPU:
+    interval_1000us: 
+      DMA:
+      CPU:
+  4MHZ:
+    interval_100us: 
+      DMA:
+      CPU:
+    interval_150us: 
+      DMA:
+      CPU:
+    interval_200us: 
+      DMA:
+      CPU:
+    interval_250us: 
+      DMA:
+      CPU:
+    interval_300us: 
+      DMA:
+      CPU:
+    interval_400us: 
+      DMA:
+      CPU:
+    interval_500us:
+      DMA:
+      CPU:
+    interval_600us:
+      DMA:
+      CPU:
+    interval_800us: 
+      DMA:
+      CPU:
+    interval_1000us: 
+      DMA:
+      CPU:
+
+MSP430FR5969: 
+  1MHZ: 
+    interval_100us: 
+      DMA:
+      CPU:
+    interval_150us: 
+      DMA:
+      CPU:
+    interval_200us: 
+      DMA:
+      CPU:
+    interval_250us:
+      DMA:
+      CPU:
+    interval_300us: 
+      DMA:
+      CPU:
+    interval_400us: 
+      DMA:
+      CPU:
+    interval_500us: 
+      DMA:
+      CPU:
+    interval_600us:
+      DMA:
+      CPU:
+    interval_800us:
+      DMA:
+      CPU:
+    interval_1000us:
+      DMA:
+      CPU:
+  2MHZ:
+    interval_100us:
+      DMA:
+      CPU:
+    interval_150us:
+      DMA:
+      CPU:
+    interval_200us:
+      DMA:
+      CPU:
+    interval_250us:
+      DMA:
+      CPU:
+    interval_300us:
+      DMA:
+      CPU:
+    interval_400us: 
+      DMA:
+      CPU:
+    interval_500us: 
+      DMA:
+      CPU:
+    interval_600us: 
+      DMA:
+      CPU:
+    interval_800us: 
+      DMA:
+      CPU:
+    interval_1000us: 
+      DMA:
+      CPU:
+  4MHZ:
+    interval_100us: 
+      DMA:
+      CPU:
+    interval_150us: 
+      DMA:
+      CPU:
+    interval_200us: 
+      DMA:
+      CPU:
+    interval_250us: 
+      DMA:
+      CPU:
+    interval_300us: 
+      DMA:
+      CPU:
+    interval_400us: 
+      DMA:
+      CPU:
+    interval_500us:
+      DMA:
+      CPU:
+    interval_600us:
+      DMA:
+      CPU:
+    interval_800us: 
+      DMA:
+      CPU:
+    interval_1000us: 
+      DMA:
+      CPU:
+
+MSP430FR2433:
+  1MHZ: 
+    interval_100us: [.3679, .3850, .3859, .3857, .3862, .3869, .3859, .3868, .3863, .3870, .3864]
+    interval_150us: [.3610, .3794, .3824, .3823, .3882, .3888, .3895, .3890, .3895, .3891, .3864]
+    interval_200us: [.3598, .3792, .3821, .3834, .3847, .3851, .3856, .3855, .3864, .3865, .3862]
+    interval_250us: [.3555, .3751, .3796, .3809, .3819, .3835, .3840, .3841, .3845, .3850, .3850]
+    interval_300us: [.3529, .3711, .3752, .3770, .3793, .3813, .3816, .3816, .3830, .3834, .3832]
+    interval_400us: [.3501, .3661, .3716, .3749, .3767, .3788, .3793, .3802, .3817, .3824, .3820]
+    interval_500us: [.3496, .3643, .3693, .3721, .3745, .3763, .3766, .3783, .3791, .3799, .3810]
+    interval_600us: []
+    interval_800us: []
+    interval_1000us: []
+  2MHZ:
+    interval_100us: []
+    interval_150us: []
+    interval_200us: []
+    interval_250us: []
+    interval_300us: []
+    interval_400us: []
+    interval_500us: []
+    interval_600us: []
+    interval_800us: []
+    interval_1000us: []
+  4MHZ:
+    interval_100us: []
+    interval_150us: []
+    interval_200us: []
+    interval_250us: []
+    interval_300us: []
+    interval_400us: []
+    interval_500us: []
+    interval_600us: []
+    interval_800us: []
+    interval_1000us: []
