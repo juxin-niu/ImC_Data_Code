@@ -1,0 +1,48 @@
+【AR】　12.81
+Max task id: 8
+Total tasks: 726
+Total bakcup size: 9300
+Task run time: 1 7 360 90 90 80 80 8 10 
+Tasked-based total backup size: 0 140 7200 0 0 0 1600 160 200 
+【BC】  21.98
+Max task id: 8
+Total tasks: 905
+Total bakcup size: 19888
+Task run time: 1 15 127 127 127 127 127 127 127 
+Tasked-based total backup size: 0 330 2794 2794 2794 2794 2794 2794 2794 
+【CEM】  11.99
+Max task id: 7
+Total tasks: 1886
+Total bakcup size: 22608
+Task run time: 1 1 96 48 768 873 3 96 
+Tasked-based total backup size: 0 0 1152 576 9216 10476 36 1152 
+【CRC】  4.00
+Max task id: 1
+Total tasks: 1025
+Total bakcup size: 4096
+Task run time: 1 1024 
+Tasked-based total backup size: 0 4096 
+【CUCKOO】  383.06
+Max task id: 6
+Total tasks: 927
+Total bakcup size: 355100
+Task run time: 1 256 256 128 30 128 128 
+Tasked-based total backup size: 0 135680 0 67840 15900 67840 67840 
+【DIJKSTRA】 105.95
+Max task id: 2
+Total tasks: 2212
+Total bakcup size: 234366
+Task run time: 1 86 2125 
+Tasked-based total backup size: 0 9116 225250 
+【RSA】  4.50
+Max task id: 5
+Total tasks: 233
+Total bakcup size: 1048
+Task run time: 1 71 71 30 30 30 
+Tasked-based total backup size: 0 0 568 240 0 240 
+【SORT】  203.96
+Max task id: 2
+Total tasks: 5050
+Total bakcup size: 1029996
+Task run time: 1 4950 99 
+Tasked-based total backup size: 0 1009800 20196 

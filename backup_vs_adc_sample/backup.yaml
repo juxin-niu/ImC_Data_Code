@@ -1,6 +1,6 @@
-backup_size: [0, 25, 50, 75, 100, 125, 150, 175, 200, 225, 250]
-
 backup_cycles: 
+  backup_size: [0, 25, 50, 75, 100, 125, 150, 175, 200, 225, 250]
+
   MSP430FR5994:
     DMA_prepare: 88
     DMA: [10, 64, 114, 164, 214, 264, 314, 364, 414, 464, 514]
@@ -12,227 +12,66 @@ backup_cycles:
   MSP430FR2433:
     CPU: [13, 272, 503, 734, 965, 1198, 1429, 1660, 1891, 2122, 2353]
 
-MSP430FR5994: 
-  1MHZ: 
-    interval_100us: 
-      DMA:
-      CPU:
-    interval_150us: 
-      DMA:
-      CPU:
-    interval_200us: 
-      DMA:
-      CPU:
-    interval_250us:
-      DMA:
-      CPU:
-    interval_300us: 
-      DMA:
-      CPU:
-    interval_400us: 
-      DMA:
-      CPU:
-    interval_500us: 
-      DMA:
-      CPU:
-    interval_600us:
-      DMA:
-      CPU:
-    interval_800us:
-      DMA:
-      CPU:
-    interval_1000us:
-      DMA:
-      CPU:
-  2MHZ:
-    interval_100us:
-      DMA:
-      CPU:
-    interval_150us:
-      DMA:
-      CPU:
-    interval_200us:
-      DMA:
-      CPU:
-    interval_250us:
-      DMA:
-      CPU:
-    interval_300us:
-      DMA:
-      CPU:
-    interval_400us: 
-      DMA:
-      CPU:
-    interval_500us: 
-      DMA:
-      CPU:
-    interval_600us: 
-      DMA:
-      CPU:
-    interval_800us: 
-      DMA:
-      CPU:
-    interval_1000us: 
-      DMA:
-      CPU:
-  4MHZ:
-    interval_100us: 
-      DMA:
-      CPU:
-    interval_150us: 
-      DMA:
-      CPU:
-    interval_200us: 
-      DMA:
-      CPU:
-    interval_250us: 
-      DMA:
-      CPU:
-    interval_300us: 
-      DMA:
-      CPU:
-    interval_400us: 
-      DMA:
-      CPU:
-    interval_500us:
-      DMA:
-      CPU:
-    interval_600us:
-      DMA:
-      CPU:
-    interval_800us: 
-      DMA:
-      CPU:
-    interval_1000us: 
-      DMA:
-      CPU:
 
-MSP430FR5969: 
-  1MHZ: 
-    interval_100us: 
-      DMA:
-      CPU:
-    interval_150us: 
-      DMA:
-      CPU:
-    interval_200us: 
-      DMA:
-      CPU:
-    interval_250us:
-      DMA:
-      CPU:
-    interval_300us: 
-      DMA:
-      CPU:
-    interval_400us: 
-      DMA:
-      CPU:
-    interval_500us: 
-      DMA:
-      CPU:
-    interval_600us:
-      DMA:
-      CPU:
-    interval_800us:
-      DMA:
-      CPU:
-    interval_1000us:
-      DMA:
-      CPU:
-  2MHZ:
-    interval_100us:
-      DMA:
-      CPU:
-    interval_150us:
-      DMA:
-      CPU:
-    interval_200us:
-      DMA:
-      CPU:
-    interval_250us:
-      DMA:
-      CPU:
-    interval_300us:
-      DMA:
-      CPU:
-    interval_400us: 
-      DMA:
-      CPU:
-    interval_500us: 
-      DMA:
-      CPU:
-    interval_600us: 
-      DMA:
-      CPU:
-    interval_800us: 
-      DMA:
-      CPU:
-    interval_1000us: 
-      DMA:
-      CPU:
-  4MHZ:
-    interval_100us: 
-      DMA:
-      CPU:
-    interval_150us: 
-      DMA:
-      CPU:
-    interval_200us: 
-      DMA:
-      CPU:
-    interval_250us: 
-      DMA:
-      CPU:
-    interval_300us: 
-      DMA:
-      CPU:
-    interval_400us: 
-      DMA:
-      CPU:
-    interval_500us:
-      DMA:
-      CPU:
-    interval_600us:
-      DMA:
-      CPU:
-    interval_800us: 
-      DMA:
-      CPU:
-    interval_1000us: 
-      DMA:
-      CPU:
+backup_energy: 
+  backup_size: [0, 10, 25, 50, 100, 250]
+  frequency: 1MHz
+  board: MSP430FR5969
+  EnergyTime_s: 5
 
-MSP430FR2433:
-  1MHZ: 
-    interval_100us: [.3679, .3850, .3859, .3857, .3862, .3869, .3859, .3868, .3863, .3870, .3864]
-    interval_150us: [.3610, .3794, .3824, .3823, .3882, .3888, .3895, .3890, .3895, .3891, .3864]
-    interval_200us: [.3598, .3792, .3821, .3834, .3847, .3851, .3856, .3855, .3864, .3865, .3862]
-    interval_250us: [.3555, .3751, .3796, .3809, .3819, .3835, .3840, .3841, .3845, .3850, .3850]
-    interval_300us: [.3529, .3711, .3752, .3770, .3793, .3813, .3816, .3816, .3830, .3834, .3832]
-    interval_400us: [.3501, .3661, .3716, .3749, .3767, .3788, .3793, .3802, .3817, .3824, .3820]
-    interval_500us: [.3496, .3643, .3693, .3721, .3745, .3763, .3766, .3783, .3791, .3799, .3810]
-    interval_600us: []
-    interval_800us: []
-    interval_1000us: []
-  2MHZ:
-    interval_100us: []
-    interval_150us: []
-    interval_200us: []
-    interval_250us: []
-    interval_300us: []
-    interval_400us: []
-    interval_500us: []
-    interval_600us: []
-    interval_800us: []
-    interval_1000us: []
-  4MHZ:
-    interval_100us: []
-    interval_150us: []
-    interval_200us: []
-    interval_250us: []
-    interval_300us: []
-    interval_400us: []
-    interval_500us: []
-    interval_600us: []
-    interval_800us: []
-    interval_1000us: []
+  interval_100us: 
+    DMA: 
+      current: [0.2731, 0.2911, 0.3036, 0.3138, 0.3220, 0.3292]
+      energy: [4.917, 5.242, 5.467, 5.652, 5.797, 5.928]
+    CPU: 
+      current: [0.2738, 0.2890, 0.2896, 0.2898, 0.2900, 0.2903]
+      energy: [4.931, 5.204, 5.213, 5.217, 5.222, 5.226]
+  interval_150us: 
+    DMA: 
+      current: [0.2722, 0.2856, 0.2970, 0.3076, 0.3172, 0.3271]
+      energy: [4.901, 5.143, 5.344, 5.538, 5.711, 5.890]
+    CPU: 
+      current: [0.2730, 0.2859, 0.2877, 0.3071, 0.2887, 0.2895]
+      energy: [4.915, 5.147, 5.180, 5.531, 5.198, 5.212]
+  interval_200us: 
+    DMA: 
+      current: [0.2716, 0.2822, 0.2923, 0.3017, 0.3134, 0.3247]
+      energy: [4.890, 5.080, 5.264, 5.433, 5.643, 5.846]
+    CPU: 
+      current: [0.2710, 0.2914, 0.3006, 0.2878, 0.3086, 0.3123]
+      energy: [4.880, 5.246, 5.412, 5.182, 5.557, 0.3136]
+  interval_300us: 
+    DMA:
+      current: [0.2716, 0.2776, 0.2861, 0.2956, 0.3067, 0.3198]
+      energy: [4.890, 4.998, 5.151, 5.322, 5.523, 5.758]
+    CPU:
+      current: [0.2723, 0.2808, 0.2837, 0.3025, 0.2872, 0.2889]
+      energy: [4.904, 5.055, 5.109, 5.448, 5.172, 0.2904]
+  interval_400us: 
+    DMA:
+      current: [0.2705, 0.2749, 0.2817, 0.2907, 0.3013, 0.3158]
+      energy: [4.871, 4.950, 5.072, 5.235, 5.423, 5.685]
+    CPU:
+      current: [0.2723, 0.2812, 0.2841, 0.2863, 0.2884, 0.2905]
+      energy: [4.903, 5.064, 5.116, 5.155, 5.193, 5.230]
+  interval_500us: 
+    DMA: 
+      current: [0.2732, 0.2760, 0.2818, 0.2887, 0.3002, 0.3154]
+      energy: [4.920, 4.971, 5.073, 5.199, 5.406, 5.678]
+    CPU: 
+      current: [0.2727, 0.2835, 0.2924, 0.2854, 0.3052, 0.3114]
+      energy: [4.910, 5.104, 5.264, 5.139, 5.496, 5.608]
+  interval_700us:
+    DMA:
+      current: [0.2721, 0.2731, 0.2776, 0.2847, 0.2933, 0.3089]
+      energy: [4.899, 4.917, 5.000, 5.127, 5.281, 5.561]
+    CPU:
+      current: [0.2739, 0.2781, 0.2808, 0.2833, 0.2861, 0.2892]
+      energy: [4.932, 5.007, 5.055, 5.101, 5.152, 5.206]
+  interval_1000us:
+    DMA:
+      current: [0.2720, 0.2713, 0.2749, 0.2808, 0.2883, 0.3029]
+      energy: [4.897, 4.886, 4.950, 5.056, 5.190, 5.453]
+    CPU:
+      current: [0.2739, 0.2764, 0.2789, 0.2814, 0.2844, 0.2880]
+      energy: [4.933, 4.977, 5.022, 5.066, 5.120, 5.186]

@@ -1,0 +1,19 @@
+adc_cycles: 
+  MSP430FR5994:
+  MSP430FR5969:
+  MSP430FR2433:
+
+sample_energy:
+  frequency: 1MHz
+  board: MSP430FR5969
+  EnergyTime_s: 5
+
+  interval_100us: 
+  interval_150us: 
+  interval_200us: 
+  interval_300us:
+  interval_400us: 
+  interval_500us: 
+  interval_700us:
+  interval_1000us:
+
